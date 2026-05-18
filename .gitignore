@@ -1,8 +1,28 @@
+# Python
 backend/venv/
-frontend/node_modules/
-backend/.env
-frontend/.env.local
+venv/
+.venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env.local
+
+# Node / Next.js
+frontend/node_modules/
+node_modules/
+frontend/.next/
 .next/
+out/
+
+# OS / editor
 .DS_Store
+.vscode/

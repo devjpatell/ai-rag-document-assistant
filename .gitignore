@@ -1,37 +1,8 @@
-# Python
+backend/venv/
+frontend/node_modules/
+backend/.env
+frontend/.env.local
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-venv/
-.venv/
-
-# Environment files
-.env
-.env.*
-!.env.example
-!.env.local.example
-
-# Node / Next.js
-node_modules/
+*.pyc
 .next/
-out/
-dist/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# OS / editor
 .DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Logs
-*.log
